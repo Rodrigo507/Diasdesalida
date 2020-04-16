@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:gravity="center"
+        android:background="@drawable/drgradado"
+
+>
+
+
+    <TextView
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo"
+            android:gravity="center"
+            android:textSize="30dp"
+
+            />
+    <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:textColor="@color/white"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SELECIONE SU SEXO"
+                android:layout_y="45dp"
+                android:layout_x="9dp"
+                android:textSize="27dp"
+        />
+        <Spinner
+                android:id="@+id/sexo_spinner"
+                android:layout_width="110dp"
+                android:layout_height="35dp" android:layout_y="45dp" android:layout_x="276dp"
+                android:background="#86F494"
+               />
+        <TextView
+                android:textColor="@color/white"
+                android:textStyle="normal"
+                android:text="INGRESE SU CEDULA"
+                android:layout_width="match_parent"
+                android:layout_height="42dp" android:layout_y="87dp" android:layout_x="0dp"
+                android:id="@+id/textView"
+                android:textSize="27dp"
+                android:gravity="center"
+        />
+        <Button
+
+                android:text="VERIFICAR"
+                android:layout_width="186dp"
+                android:layout_height="69dp" android:layout_y="193dp" android:layout_x="101dp"
+                android:id="@+id/botonverificar"
+                android:textSize="20sp"
+
+        />
+        <TextView
+                android:text="CREATED BY
+                RODRIGO"
+
+                android:layout_width="288dp"
+                android:layout_height="333dp" android:layout_y="301dp" android:layout_x="63dp"
+                android:id="@+id/resultado"
+                android:gravity="center"
+                android:textSize="25dp"
+        />
+        <EditText
+                android:textColor="@color/white"
+                android:textStyle="bold"
+
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:layout_y="135dp" android:layout_x="109dp" android:id="@+id/cedula"
+                android:digits="0123456789-" android:hint="00-000-0000" android:maxLength="11"
+                android:gravity="center" android:textSize="24sp"/>
+
+    </AbsoluteLayout>
+
+
+
+
+</LinearLayout>

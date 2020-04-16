@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Diasdesalida</string>
+
+    <!-- MAIN ACTIVITY-->
+    <string name="titulo">#QUEDATEENCASA</string>
+
+    <string-array name="sexo">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+    <string name="selected_item">Selected item:</string>
+</resources>
