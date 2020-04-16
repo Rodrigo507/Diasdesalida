@@ -9,4 +9,5 @@
         <item>F</item>
     </string-array>
     <string name="selected_item">Selected item:</string>
+    <string name="created_by_rodrigo">CREATED BY RODRIGO</string>
 </resources>

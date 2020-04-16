@@ -5,42 +5,52 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-
-        android:gravity="center"
         android:background="@drawable/drgradado"
+       >
 
->
-
-
-    <TextView
-            android:textColor="@color/white"
-            android:textStyle="bold"
+    <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/titulo"
-            android:gravity="center"
-            android:textSize="30dp"
-
-            />
-    <AbsoluteLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_margin="5dp">
         <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo"
+                android:gravity="center"
+                android:textSize="30dp"
                 android:textColor="@color/white"
+                android:textStyle="bold"        />
 
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="SELECIONE SU SEXO"
                 android:layout_y="45dp"
                 android:layout_x="9dp"
-                android:textSize="27dp"
-        />
+                android:textSize="27dp"/>
+
         <Spinner
+                android:layout_marginLeft="8dp"
                 android:id="@+id/sexo_spinner"
                 android:layout_width="110dp"
                 android:layout_height="35dp" android:layout_y="45dp" android:layout_x="276dp"
                 android:background="#86F494"
-               />
+        />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
         <TextView
                 android:textColor="@color/white"
                 android:textStyle="normal"
@@ -51,8 +61,22 @@
                 android:textSize="27dp"
                 android:gravity="center"
         />
-        <Button
+        <EditText
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:layout_y="135dp" android:layout_x="109dp" android:id="@+id/cedula"
+                android:digits="0123456789-" android:hint="00-000-0000" android:maxLength="11"
+                android:layout_gravity="center"
+                android:textSize="24sp"/>
 
+        <Button
+                android:layout_margin="8dp"
+                android:layout_gravity="center"
                 android:text="VERIFICAR"
                 android:layout_width="186dp"
                 android:layout_height="69dp" android:layout_y="193dp" android:layout_x="101dp"
@@ -60,31 +84,16 @@
                 android:textSize="20sp"
 
         />
-        <TextView
-                android:text="CREATED BY
-                RODRIGO"
 
-                android:layout_width="288dp"
-                android:layout_height="333dp" android:layout_y="301dp" android:layout_x="63dp"
-                android:id="@+id/resultado"
-                android:gravity="center"
-                android:textSize="25dp"
-        />
-        <EditText
-                android:textColor="@color/white"
-                android:textStyle="bold"
+    </LinearLayout>
+    <TextView
+            android:text="@string/created_by_rodrigo"
 
-                android:layout_width="176dp"
-                android:layout_height="wrap_content"
-                android:inputType="number"
-                android:ems="10"
-                android:layout_y="135dp" android:layout_x="109dp" android:id="@+id/cedula"
-                android:digits="0123456789-" android:hint="00-000-0000" android:maxLength="11"
-                android:gravity="center" android:textSize="24sp"/>
-
-    </AbsoluteLayout>
-
-
-
-
+            android:layout_width="288dp"
+            android:layout_height="333dp" android:layout_y="301dp" android:layout_x="63dp"
+            android:id="@+id/resultado"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:gravity="center"
+    />
 </LinearLayout>
