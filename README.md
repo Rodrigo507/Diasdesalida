@@ -26,3 +26,9 @@ _El valor más importante es nuestro último digito_
 
 ## Instalación 🔧
   _Actualmente solo esta diponible para Android * [Aqui](https://github.com/Rodrigo507/Diasdesalida/releases/tag/v1.0) - Días y horas en la que puedes salir_
+  
+  ## Actualizaciones
+  
+  ```
+  A la fecha que se desarollo la aplicacion los Dias SABADO Y DOMINGO eran cuarentena total
+  ```
