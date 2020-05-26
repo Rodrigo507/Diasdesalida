@@ -1,6 +1,7 @@
+## Dias de salida #PANAMA
 ## Verificación de días y horas en la que puedes salir #CUARENTENA
 
-_Este proyecto lo realizo con la finalidad, de poder ayudar a las personas que se informen sobre la hora que pueden salir de su condominio y a la hora que deben de regresar _
+_Este proyecto lo realizo con la finalidad, de poder ayudar a las personas que se informen sobre la hora que pueden salir de su condominio y a la hora que deben de regresar_
 ## Como funciona 🚀
 _Debemos de introducir nuestro DNI o CEDULA ejemplo: 1-111-1111_
 _El valor más importante es nuestro último digito_
@@ -24,4 +25,4 @@ _El valor más importante es nuestro último digito_
 
 
 ## Instalación 🔧
-  _Actualmente solo esta diponible para Android * [Aqui](http://www.dropwizard.io/1.0.2/docs/) - Días y horas en la que puedes salir_
+  _Actualmente solo esta diponible para Android * [Aqui](https://github.com/Rodrigo507/Diasdesalida/releases/tag/v1.0) - Días y horas en la que puedes salir_
